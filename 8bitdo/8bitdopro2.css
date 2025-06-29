@@ -42,7 +42,9 @@
 }
 
 .custom .trigger.right {
-    float: right;
+    float: right;    
+    position: absolute;
+    right: 8px;
     transform: rotateY(180deg);
 }
 
@@ -51,7 +53,7 @@
     height: 53px;
     left: 58px;
     position: absolute;
-	top:80px;
+	top:79px;
 }
 
 .custom .bumper {
@@ -126,12 +128,16 @@
 .custom .back {
     float: left;
 	margin-right: -5px;
+    position: absolute;
+    top:-3px;
 }
 
 .custom .start {
-    float: left;
+    position: absolute;
+    top:-3px;
+    left:36px;
+    float:left;
 }
-
 .custom .abxy {
     position: absolute;
     width: 130px;
@@ -190,7 +196,7 @@
     position: absolute;
     width: 100px;
     height: 100px;
-    top: 196px;
+    top: 193px;
     left: 136px;
 }
 
@@ -221,7 +227,7 @@
     position: absolute;
     width: 114px;
     height: 113px;
-    top: 80px;
+    top: 77px;
     left: 60px;
 }
 
